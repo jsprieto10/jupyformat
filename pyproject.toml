@@ -3,14 +3,14 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyformat"
+name = "jupyformat"
 version = "1.0.0"
 description = "Custom functions for transforming files for jupyter book"
 readme = "README.md"
 authors = [{ name = "Juan Sebastian Prieto", email = "js.prieto10@uniandes.edu.co" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: APACHE",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
