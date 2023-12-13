@@ -1,0 +1,27 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyformat"
+version = "1.0.0"
+description = "Custom functions for transforming files for jupyter book"
+readme = "README.md"
+authors = [{ name = "Juan Sebastian Prieto", email = "js.prieto10@uniandes.edu.co" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: APACHE",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["jupyter book", "jupytext", "nbformat", "md5", "custom parser", "md", "markdown" ]
+dependencies = [
+    "jupytext"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/jsprieto10/pyformat"

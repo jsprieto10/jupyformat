@@ -1,0 +1,53 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+
+# Ignore distribution files
+dist/
+build/
+*.egg-info/
+
+# Ignore local development files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore pytest cache and temporary files
+pytest_cache/
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local development files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files
+*.log
+
+# Ignore IDE files
+.idea/
+*.suo
+*.user
+*.sln
