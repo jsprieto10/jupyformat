@@ -32,10 +32,6 @@ Integrate `jupyformat` into your Jupyter Book configuration to enhance content p
 
 # ...
 
-markdown:
-  parser: jupyformat.reads
-  extension: .md
-
 sphinx:
   config:
     nb_custom_formats:
